@@ -1,0 +1,767 @@
+[
+  {
+    "id": 1,
+    "quote": "We must accept finite disappointment, but never lose infinite hope.",
+    "author": "Martin Luther King Jr.",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2023-11-24T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 2,
+    "quote": "Success is not final; failure is not fatal: It is the courage to continue that counts.",
+    "author": "Winston Churchill",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2024-11-30T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 3,
+    "quote": "The only limit to our realization of tomorrow will be our doubts of today.",
+    "author": "Franklin D. Roosevelt",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2023-11-24T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 4,
+    "quote": "With realization of one’s own potential and self-confidence in one’s ability, one can build a better world.",
+    "author": "Dalai Lama",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2023-11-24T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 5,
+    "quote": "If you can’t yet do great things, do small things in a great way.",
+    "author": "Napoleon Hill",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2025-01-15T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 6,
+    "quote": "Life is like riding a bicycle. To keep your balance, you must keep moving.",
+    "author": "Albert Einstein",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2025-01-15T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 7,
+    "quote": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2023-11-24T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 8,
+    "quote": "Develop success from failures. Discouragement and failure are two of the surest stepping stones to success.",
+    "author": "Dale Carnegie",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2024-11-30T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 9,
+    "quote": "Never say never, because limits, like fears, are often just an illusion.",
+    "author": "Michael Jordan",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2023-11-24T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 10,
+    "quote": "You only live once, but if you do it right, once is enough.",
+    "author": "Mae West",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2025-01-15T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 11,
+    "quote": "Be yourself; everyone else is already taken.",
+    "author": "Oscar Wilde",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2024-08-17T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 12,
+    "quote": "Do not wait for the perfect time and place to enter, for you are already onstage.",
+    "author": "Unknown",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2025-01-15T00:00:00Z",
+    "popularity": 7
+  },
+  {
+    "id": 13,
+    "quote": "Arise! Awake! And stop not until the goal is reached.",
+    "author": "Swami Vivekananda",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "1893-01-01T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 14,
+    "quote": "He who has a why to live can bear almost any how.",
+    "author": "Friedrich Nietzsche",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "2023-11-24T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 15,
+    "quote": "Dream big and dare to fail.",
+    "author": "Norman Vaughan",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "1900-01-01T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 16,
+    "quote": "Believe you can and you're halfway there.",
+    "author": "Theodore Roosevelt",
+    "category": "motivation",
+    "language": "english",
+    "date_added": "1900-01-01T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 21,
+    "quote": "उद्धरेदात्मनात्मानम् नात्मानमवसादयेत्। आत्मैव ह्यात्मनो बन्धुरात्मैव रिपुरात्मनः॥",
+    "author": "Bhagavad Gita",
+    "category": "motivation",
+    "language": "sanskrit",
+    "date_added": "2024-09-25T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 22,
+    "quote": "सा विद्या या विमुक्तये।",
+    "author": "Chanakya Niti",
+    "category": "motivation",
+    "language": "sanskrit",
+    "date_added": "2024-09-25T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 23,
+    "quote": "उत्तिष्ठत जाग्रत प्राप्य वरान्निबोधत।",
+    "author": "Kathopanishad",
+    "category": "motivation",
+    "language": "sanskrit",
+    "date_added": "2021-10-21T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 24,
+    "quote": "सत्यमेव जयते।",
+    "author": "Mundaka Upanishad",
+    "category": "motivation",
+    "language": "sanskrit",
+    "date_added": "2021-10-21T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 25,
+    "quote": "यत्र नार्यस्तु पूज्यन्ते रमन्ते तत्र देवताः।",
+    "author": "Manusmriti",
+    "category": "motivation",
+    "language": "sanskrit",
+    "date_added": "2024-04-12T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 26,
+    "quote": "I am exactly where I am meant to be.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 27,
+    "quote": "I radiate love and positivity.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-01-28T00:00:00Z",
+    "popularity": 8.5
+  },
+  {
+    "id": 28,
+    "quote": "I am worthy of love and respect.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-01-28T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 29,
+    "quote": "I am a magnet for positive outcomes and experiences.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 30,
+    "quote": "I am grateful for the gift of today and make it count.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 7.5
+  },
+  {
+    "id": 31,
+    "quote": "Every day is full of potential, and I am open to new opportunities.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 32,
+    "quote": "I trust myself to make the right decisions.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-01-15T00:00:00Z",
+    "popularity": 8.5
+  },
+  {
+    "id": 33,
+    "quote": "I am an unstoppable force of nature.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-01-28T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 34,
+    "quote": "I attract positivity and repel negativity.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 35,
+    "quote": "I create my own opportunities.",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 36,
+    "quote": "अहमस्मि सम्पूर्णम्।",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "sanskrit",
+    "date_added": "2024-09-25T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 37,
+    "quote": "यत् भावो तत् भवति।",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "sanskrit",
+    "date_added": "2024-09-25T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 38,
+    "quote": "अहम् ब्रह्मास्मि।",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "sanskrit",
+    "date_added": "2021-10-21T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 39,
+    "quote": "अनुगच्छतु प्रवाहम्।",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "sanskrit",
+    "date_added": "2024-09-25T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 40,
+    "quote": "सा विद्या या विमुक्तये।",
+    "author": "Anonymous",
+    "category": "affirmation",
+    "language": "sanskrit",
+    "date_added": "2024-04-12T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 41,
+    "quote": "The last three or four reps is what makes the muscle grow. This area of pain divides a champion from someone who is not a champion.",
+    "author": "Arnold Schwarzenegger",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2025-02-05T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 42,
+    "quote": "What hurts today makes you stronger tomorrow.",
+    "author": "Jay Cutler",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2024-01-15T00:00:00Z",
+    "popularity": 8.5
+  },
+  {
+    "id": 43,
+    "quote": "Fitness is not about being better than someone else. It’s about being better than you used to be.",
+    "author": "Khloe Kardashian",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2023-10-20T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 44,
+    "quote": "Strength does not come from physical capacity. It comes from an indomitable will.",
+    "author": "Mahatma Gandhi",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2023-07-13T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 45,
+    "quote": "Your body can stand almost anything. It’s your mind that you have to convince.",
+    "author": "Andrew Murphy",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 46,
+    "quote": "The only bad workout is the one you didn’t do.",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2024-11-29T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 47,
+    "quote": "You don’t have to be extreme, just consistent.",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2023-10-20T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 48,
+    "quote": "Sweat is fat crying.",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2022-03-15T00:00:00Z",
+    "popularity": 7.5
+  },
+  {
+    "id": 49,
+    "quote": "Discipline is the bridge between goals and accomplishment.",
+    "author": "Jim Rohn",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2025-01-28T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 50,
+    "quote": "The pain you feel today will be the strength you feel tomorrow.",
+    "author": "Arnold Schwarzenegger",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 51,
+    "quote": "Take care of your body. It’s the only place you have to live.",
+    "author": "Jim Rohn",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2024-12-16T00:00:00Z",
+    "popularity": 8.5
+  },
+  {
+    "id": 52,
+    "quote": "Fall in love with taking care of yourself: mind, body, spirit.",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "english",
+    "date_added": "2024-06-26T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 53,
+    "quote": "व्यायामात् लभते स्वास्थ्यं दीर्घायुष्यं बलं सुखं।",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "sanskrit",
+    "date_added": "2024-06-26T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 54,
+    "quote": "शरीरोपचयः कान्तिर्गात्राणां सुविभक्तता।",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "sanskrit",
+    "date_added": "2024-09-26T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 55,
+    "quote": "न चास्ति सदृशं तेन किंचित्स्थौल्यापकर्षणम्।",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "sanskrit",
+    "date_added": "2023-08-17T00:00:00Z",
+    "popularity": 8.5
+  },
+  {
+    "id": 56,
+    "quote": "व्यायामं कुर्वतो नित्यं विरुद्धमपि भोजनम्।",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "sanskrit",
+    "date_added": "2024-04-12T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 57,
+    "quote": "आदित्यस्य नमस्कारान्ये कुर्वन्ति दिने दिने।",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "sanskrit",
+    "date_added": "2024-11-29T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 58,
+    "quote": "श्रमक्लमपिपासोष्णशीतादीनां सहिष्णुता।",
+    "author": "Anonymous",
+    "category": "fitness",
+    "language": "sanskrit",
+    "date_added": "2024-09-25T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 59,
+    "quote": "The best thing to hold onto in life is each other.",
+    "author": "Audrey Hepburn",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2025-01-08T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 60,
+    "quote": "A great marriage is not when the 'perfect couple' comes together. It is when an imperfect couple learns to enjoy their differences.",
+    "author": "Dave Meurer",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2024-11-15T00:00:00Z",
+    "popularity": 8.5
+  },
+  {
+    "id": 61,
+    "quote": "To love is nothing. To be loved is something. But to love and be loved, that’s everything.",
+    "author": "T. Tolis",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2024-10-21T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 62,
+    "quote": "Being deeply loved by someone gives you strength while loving someone deeply gives you courage.",
+    "author": "Lao-Tzu",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2025-02-01T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 63,
+    "quote": "Trust is the fruit of a relationship in which you know you are loved.",
+    "author": "William Paul Young",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2023-01-15T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 64,
+    "quote": "We cannot really love anyone with whom we never laugh.",
+    "author": "Agnes Repplier",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2024-10-14T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 65,
+    "quote": "Love doesn’t make the world go round. Love is what makes the ride worthwhile.",
+    "author": "Franklin P. Jones",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 66,
+    "quote": "A loving relationship is one in which the loved one is free to be himself.",
+    "author": "Leo F. Buscaglia",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2023-02-04T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 67,
+    "quote": "Happily ever after is not a fairy tale; it’s a choice.",
+    "author": "Fawn Weaver",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2024-01-10T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 68,
+    "quote": "The meeting of two personalities is like the contact of two chemical substances: if there is any reaction, both are transformed.",
+    "author": "Carl Gustav Jung",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8.5
+  },
+  {
+    "id": 69,
+    "quote": "Love is composed of a single soul inhabiting two bodies.",
+    "author": "Aristotle",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2022-07-05T00:00:00Z",
+    "popularity": 8.5
+  },
+  {
+    "id": 70,
+    "quote": "Absence makes the heart grow fonder.",
+    "author": "Charles M. Schulz",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2023-03-15T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 71,
+    "quote": "To get the full value of joy, you must have someone to divide it with.",
+    "author": "Mark Twain",
+    "category": "relationship",
+    "language": "english",
+    "date_added": "2025-02-13T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 72,
+    "quote": "प्रेम सर्वान् जयति।",
+    "author": "Anonymous",
+    "category": "relationship",
+    "language": "sanskrit",
+    "date_added": "2024-10-21T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 73,
+    "quote": "यत्र नार्यस्तु पूज्यन्ते रमन्ते तत्र देवताः।",
+    "author": "Anonymous",
+    "category": "relationship",
+    "language": "sanskrit",
+    "date_added": "2024-09-26T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 74,
+    "quote": "सत्यमेव प्रेम शाश्वतम्।",
+    "author": "Anonymous",
+    "category": "relationship",
+    "language": "sanskrit",
+    "date_added": "2023-04-12T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 75,
+    "quote": "If you look the right way, you can see that the whole world is a garden.",
+    "author": "Frances Hodgson Burnett",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2023-11-30T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 76,
+    "quote": "Positive thinking will let you do everything better than negative thinking.",
+    "author": "Zig Ziglar",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2023-11-30T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 77,
+    "quote": "Optimism is the faith that leads to achievement; nothing can be done without hope.",
+    "author": "Helen Keller",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2023-11-30T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 78,
+    "quote": "Keep your face always toward the sunshine—and shadows will fall behind you.",
+    "author": "Walt Whitman",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2023-11-30T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 79,
+    "quote": "Be positive. Your mind is more powerful than you think.",
+    "author": "Tony Dungy",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2023-11-30T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 80,
+    "quote": "You’re off to great places, today is your day. Your mountain is waiting, so get on your way.",
+    "author": "Dr. Seuss",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2023-11-30T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 81,
+    "quote": "The way I see it, if you want the rainbow, you gotta put up with the rain.",
+    "author": "Dolly Parton",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2023-11-30T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 82,
+    "quote": "You are never too old to set another goal or dream a new dream.",
+    "author": "Les Brown",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2023-11-30T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 83,
+    "quote": "Train your mind to see the good in every situation.",
+    "author": "Anonymous",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2025-02-14T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 84,
+    "quote": "If you can stay positive in a negative situation, you win.",
+    "author": "Anonymous",
+    "category": "positivity",
+    "language": "english",
+    "date_added": "2025-02-14T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 85,
+    "quote": "सर्वे भवन्तु सुखिनः।",
+    "author": "Anonymous",
+    "category": "positivity",
+    "language": "sanskrit",
+    "date_added": "2024-01-15T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 86,
+    "quote": "आत्मनं विद्धि।",
+    "author": "Anonymous",
+    "category": "positivity",
+    "language": "sanskrit",
+    "date_added": "2024-01-15T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 87,
+    "quote": "सुखस्य मूलं धर्मः।",
+    "author": "Anonymous",
+    "category": "positivity",
+    "language": "sanskrit",
+    "date_added": "2024-01-15T00:00:00Z",
+    "popularity": 8
+  },
+  {
+    "id": 88,
+    "quote": "अहिंसा परमो धर्मः।",
+    "author": "Anonymous",
+    "category": "positivity",
+    "language": "sanskrit",
+    "date_added": "2024-01-15T00:00:00Z",
+    "popularity": 9
+  },
+  {
+    "id": 89,
+    "quote": "यत्र धर्मस्तत्र जयः।",
+    "author": "Anonymous",
+    "category": "positivity",
+    "language": "sanskrit",
+    "date_added": "2024-01-15T00:00:00Z",
+    "popularity": 9
+  }
+]
