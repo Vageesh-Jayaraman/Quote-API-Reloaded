@@ -1,14 +1,22 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useMemo } from "react";
 import colors from "@/components/colors";
 import { ClipboardCopy, Check } from "lucide-react";
 
 export default function CodeBlock({ link, params, code }: { link: string, params: string, code: string }) {
+    const [origin, setOrigin] = useState("");
+
+    useEffect(() => {
+        setOrigin(window.location.origin);
+    }, []);
+
+    const fullLink = useMemo(() => origin + link, [origin, link]);
+
     const [copied, setCopied] = useState(false);
 
     const handleCopy = () => {
-        navigator.clipboard.writeText(link);
+        navigator.clipboard.writeText(fullLink);
         setCopied(true);
         setTimeout(() => setCopied(false), 2000);
     };
@@ -20,16 +28,14 @@ export default function CodeBlock({ link, params, code }: { link: string, params
                     GET
                 </p>
                 <div className="flex items-center font-bold w-full px-5 py-1 rounded-md bg-gray-800 " style={{
-                    color: "",
                     border: `2px solid ${colors.seaGreen}`
                 }}>
-                    <p className="flex-1 overflow-hidden overflow-ellipsis whitespace-nowrap">{window.location.origin + link}</p>
+                    <p className="flex-1 overflow-hidden overflow-ellipsis whitespace-nowrap">{fullLink}</p>
                     <button onClick={handleCopy} className="ml-3 p-1 rounded-md hover:opacity-80 transition">
                         {copied ? <Check size={16} color="white" /> : <ClipboardCopy size={16} color="white" />}
                     </button>
                 </div>
             </div>
-
 
             <div className="my-4">
                 <p className="font-bold font-sans" style={{ color: colors.mediumSeaGreen }}>Parameters</p>
