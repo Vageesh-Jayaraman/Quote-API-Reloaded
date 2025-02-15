@@ -1,17 +1,8 @@
 "use client";
-import React, { useState } from "react";
+import React  from "react";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import { cn } from "@/lib/utils";
 
-const transition = {
-  type: "spring",
-  mass: 0.5,
-  damping: 11.5,
-  stiffness: 100,
-  restDelta: 0.001,
-  restSpeed: 0.001,
-};
 
 export const MenuItem = ({
   setActive,
