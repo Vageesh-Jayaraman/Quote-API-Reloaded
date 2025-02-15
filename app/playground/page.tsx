@@ -1,6 +1,6 @@
 "use client";
 import * as React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import {
     Select,
     SelectContent,
@@ -20,7 +20,7 @@ function InputBox({ value, onChange }: { value: string; onChange: (e: React.Chan
     return <Input type="text" value={value} onChange={onChange} />;
 }
 
-const routes = [
+const apiEndpoints = [
     "/api/random",
     "/api/{id}",
     "/api/author/{author}",
@@ -28,23 +28,18 @@ const routes = [
     "/api/language/{language}",
     "/api/popularity-range?minPopularity={minPopularity}&maxPopularity={maxPopularity}",
     "/api/date-range?startDate={startDate}&endDate={endDate}",
-].map((element) => {
-    return window.location.origin + element;
-})
-
-const options = [
-    { title: "Random" },
-    { title: "ID" },
-    { title: "Author" },
-    { title: "Category" },
-    { title: "Language" },
-    { title: "Popularity Range" },
-    { title: "Date Range" },
 ];
 
 export default function Home() {
     const [inputValue, setInputValue] = useState<string>("");
     const [responseData, setResponseData] = useState<string | null>(null);
+    const [routes, setRoutes] = useState<string[]>([]);
+
+    useEffect(() => {
+        if (typeof window !== "undefined") {
+            setRoutes(apiEndpoints.map((endpoint) => window.location.origin + endpoint));
+        }
+    }, []);
 
     async function getRoute(route: string) {
         try {
@@ -67,6 +62,15 @@ export default function Home() {
         }
     }
 
+    const options = [
+        { title: "Random" },
+        { title: "ID" },
+        { title: "Author" },
+        { title: "Category" },
+        { title: "Language" },
+        { title: "Popularity Range" },
+        { title: "Date Range" },
+    ];
 
     return (
         <div>
@@ -110,7 +114,6 @@ export default function Home() {
             <div className="border-2 border-[#2E8B57] scroll-smooth overflow-auto rounded-md p-4 mx-20 mt-5 max-h-[32rem]">
                 {responseData ? <pre>{responseData}</pre> : <p className="text-center italic">The Response appears here</p>}
             </div>
-
         </div>
     );
 }
