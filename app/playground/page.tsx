@@ -16,7 +16,7 @@ import Header from "@/components/helpers/Header";
 import NavigationBar from "@/components/helpers/NavBar";
 import colors from "@/components/colors";
 
-export function InputBox({ value, onChange }: { value: string; onChange: (e: React.ChangeEvent<HTMLInputElement>) => void }) {
+function InputBox({ value, onChange }: { value: string; onChange: (e: React.ChangeEvent<HTMLInputElement>) => void }) {
     return <Input type="text" value={value} onChange={onChange} />;
 }
 
