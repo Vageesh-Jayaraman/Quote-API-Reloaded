@@ -4,7 +4,7 @@ import { useState, useEffect, useMemo } from "react";
 import colors from "@/components/colors";
 import { ClipboardCopy, Check } from "lucide-react";
 
-export default function CodeBlock({ link, params, code }: { link: string, params: string, code: string }) {
+export default function CodeBlock({ link, params, query, code }: { link: string, params: string, query: string, code: string }) {
     const [origin, setOrigin] = useState("");
 
     useEffect(() => {
@@ -12,6 +12,7 @@ export default function CodeBlock({ link, params, code }: { link: string, params
     }, []);
 
     const fullLink = useMemo(() => origin + link, [origin, link]);
+    const fullSampleLink = useMemo(() => origin + query, [origin, query]);
 
     const [copied, setCopied] = useState(false);
 
@@ -39,8 +40,15 @@ export default function CodeBlock({ link, params, code }: { link: string, params
 
             <div className="my-4">
                 <p className="font-bold font-sans" style={{ color: colors.mediumSeaGreen }}>Parameters</p>
-                <pre className="py-5 px-10 w-full my-2 rounded-md bg-[#161616] text-gray-200 text-sm">
+                <pre className="font-semibold py-4 px-10 w-full my-2 rounded-md bg-[#161616] text-gray-200 ">
                     <code>{params}</code>
+                </pre>
+            </div>
+
+            <div className="my-4">
+                <p className="font-bold font-sans" style={{ color: colors.mediumSeaGreen }}>Sample Query </p>
+                <pre className="py-4 px-10 w-full my-2 rounded-md bg-[#161616] text-gray-200 text-sm">
+                    <code>{fullSampleLink}</code>
                 </pre>
             </div>
 

@@ -8,8 +8,8 @@ export default function Home() {
         <div>
             <NavBar></NavBar>
             <Header title="Documentation" />
-            {snippets.map(([route, param, code], index) => (
-                <CodeBlock key={index} link={route} params={param} code={code} />
+            {snippets.map(([route, param, query, code], index) => (
+                <CodeBlock key={index} link={route} params={param} query={query} code={code} />
             ))}
         </div>
     );

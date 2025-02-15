@@ -1,7 +1,8 @@
 export const snippets = [
     [
-        "/api/random", 
-        `None`,
+        "/api/random",
+        "None",
+        "/api/random",
         `
         {
             "id": "1",
@@ -9,68 +10,68 @@ export const snippets = [
             "author": "Aristotle",
             "category": "positivity",
             "language": "english",
-            "date_added": "2023-11-20T14:45:00Z",
+            "date_added": "2023-11-20",
             "popularity": 9.2
         }
         `
     ],
-
     [
-        "/api/{id}", 
-        `TYPE: Integer`,
+        "/api/{id}",
+        "TYPE: Integer",
+        "/api/2",
         `
         {
             "id": "2",
             "quote": "Act as if what you do makes a difference. It does.",
             "author": "William James",
-            "category": "motivational",
+            "category": "motivation",
             "language": "english",
-            "date_added": "2024-02-01T08:15:00Z",
+            "date_added": "2024-02-01",
             "popularity": 8.7
         }
         `
     ],
-
     [
-        "/api/category/{category}", 
-        `TYPE: String,
-enum: ["motivation", "affirmation", "fitness", "relationship", "positivity"]`,
+        "/api/category/{category}",
+        `TYPE: String 
+enum: ['motivation', 'affirmation', 'fitness', 'relationship', 'positivity']`,
+        "/api/category/motivation",
         `
         [
             {
                 "id": "3",
                 "quote": "The only way to do great work is to love what you do.",
                 "author": "Steve Jobs",
-                "category": "motivational",
+                "category": "motivation",
                 "language": "english",
-                "date_added": "2023-10-05T12:00:00Z",
+                "date_added": "2023-10-05",
                 "popularity": 9.5
             },
             {
                 "id": "4",
                 "quote": "Believe you can and you're halfway there.",
                 "author": "Theodore Roosevelt",
-                "category": "motivational",
+                "category": "motivation",
                 "language": "english",
-                "date_added": "2022-09-18T09:30:00Z",
+                "date_added": "2022-09-18",
                 "popularity": 9.0
             }
         ]
         `
     ],
-
     [
-        "/api/author/{author}", 
-        `TYPE: String`,
+        "/api/author/{author}",
+        "TYPE: String",
+        "/api/author/Winston%20Churchill",
         `
         [
             {
                 "id": "5",
                 "quote": "Success is not final, failure is not fatal: it is the courage to continue that counts.",
                 "author": "Winston Churchill",
-                "category": "affirmations",
+                "category": "affirmation",
                 "language": "english",
-                "date_added": "2023-06-21T16:10:00Z",
+                "date_added": "2023-06-21",
                 "popularity": 8.8
             },
             {
@@ -79,17 +80,16 @@ enum: ["motivation", "affirmation", "fitness", "relationship", "positivity"]`,
                 "author": "Winston Churchill",
                 "category": "positivity",
                 "language": "english",
-                "date_added": "2021-12-30T11:20:00Z",
+                "date_added": "2021-12-30",
                 "popularity": 9.3
             }
         ]
         `
     ],
-
     [
-        "/api/popularity/{popularity}", 
-        `TYPE: Float,
-enum: ["<", "between", ">"]`,
+        "/api/popularity-range?minPopularity={minPopularity}&maxPopularity={maxPopularity}",
+        "TYPE: Float (0.0 - 10.0)",
+        "/api/popularity-range?minPopularity=9.0&maxPopularity=9.6",
         `
         [
             {
@@ -98,63 +98,62 @@ enum: ["<", "between", ">"]`,
                 "author": "Aristotle",
                 "category": "fitness",
                 "language": "english",
-                "date_added": "2023-04-12T07:45:00Z",
+                "date_added": "2023-04-12",
                 "popularity": 9.6
             },
             {
                 "id": "8",
                 "quote": "With the new day comes new strength and new thoughts.",
                 "author": "Eleanor Roosevelt",
-                "category": "affirmations",
+                "category": "affirmation",
                 "language": "english",
-                "date_added": "2022-07-15T13:25:00Z",
+                "date_added": "2022-07-15",
                 "popularity": 9.1
             }
         ]
         `
     ],
-
     [
-        "/api/language/{language}", 
-        `TYPE: String,
-enum: ["english", "sanskrit"]`,
+        "/api/language/{language}",
+        `TYPE: String
+enum: ['english', 'sanskrit']`,
+        "/api/language/sanskrit",
         `
         [
             {
                 "id": "9",
                 "quote": "स्वयमेव मृगेंद्रता।",
                 "author": "Chanakya",
-                "category": "motivational",
+                "category": "motivation",
                 "language": "sanskrit",
-                "date_added": "2022-03-27T18:00:00Z",
+                "date_added": "2022-03-27",
                 "popularity": 8.9
             },
             {
                 "id": "10",
                 "quote": "धर्मो रक्षति रक्षितः।",
                 "author": "Manusmriti",
-                "category": "affirmations",
+                "category": "affirmation",
                 "language": "sanskrit",
-                "date_added": "2021-11-03T15:10:00Z",
+                "date_added": "2021-11-03",
                 "popularity": 8.7
             }
         ]
         `
     ],
-
     [
-        "/api/date/{date}", 
-        `TYPE: Date,
-enum: ["<", "between", ">"]`,
+        "/api/date-range?startDate={startDate}&endDate={endDate}",
+        "TYPE: Date (YYYY-MM-DD)",
+        "/api/date-range?startDate=2022-05-14&endDate=2023-08-09",
         `
         [
             {
                 "id": "11",
                 "quote": "A journey of a thousand miles begins with a single step.",
                 "author": "Lao Tzu",
-                "category": "motivational",
+                "category": "motivation",
                 "language": "english",
-                "date_added": "2022-05-14T20:40:00Z",
+                "date_added": "2022-05-14",
                 "popularity": 9.0
             },
             {
@@ -163,9 +162,10 @@ enum: ["<", "between", ">"]`,
                 "author": "Peter Drucker",
                 "category": "inspiration",
                 "language": "english",
-                "date_added": "2023-08-09T05:30:00Z",
+                "date_added": "2023-08-09",
                 "popularity": 9.4
             }
-        ]`
+        ]
+        `
     ]
 ];
