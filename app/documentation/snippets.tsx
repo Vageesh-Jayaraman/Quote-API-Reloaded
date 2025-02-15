@@ -34,7 +34,7 @@ export const snippets = [
     [
         "/quotes/category/{category}", 
         `TYPE: String,
-enum: ["motivational", "affirmations", "fitness", "relationships", "positivity"]`,
+enum: ["motivation", "affirmation", "fitness", "relationship", "positivity"]`,
         `
         [
             {

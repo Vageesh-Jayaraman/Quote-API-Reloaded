@@ -14,7 +14,7 @@ export default function CodeBlock({ link, params, code }: { link: string, params
     };
 
     return (
-        <div className="px-10 py-5 m-20 rounded-lg border" style={{ backgroundColor: "#0D0D0D", borderColor: colors.lightSeaGreen }}>
+        <div className="px-10 py-5 m-20 rounded-lg border hover:border-2" style={{ backgroundColor: "#0D0D0D", borderColor: colors.lightSeaGreen }}>
             <div className="font-mono flex gap-5 flex-row items-center">
                 <p className="px-2 py-1 font-bold rounded text-white shadow-md" style={{ backgroundColor: 'rgba(0, 166, 147, 0.7)' }}>
                     GET
@@ -23,7 +23,7 @@ export default function CodeBlock({ link, params, code }: { link: string, params
                     color: "",
                     border: `2px solid ${colors.seaGreen}`
                 }}>
-                    <p className="flex-1 overflow-hidden overflow-ellipsis whitespace-nowrap">{link}</p>
+                    <p className="flex-1 overflow-hidden overflow-ellipsis whitespace-nowrap">{window.location.origin + link}</p>
                     <button onClick={handleCopy} className="ml-3 p-1 rounded-md hover:opacity-80 transition">
                         {copied ? <Check size={16} color="white" /> : <ClipboardCopy size={16} color="white" />}
                     </button>

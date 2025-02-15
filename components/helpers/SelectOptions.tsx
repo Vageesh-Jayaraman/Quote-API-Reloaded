@@ -1,4 +1,5 @@
-import * as React from "react";
+"use client";
+
 import {
   Select,
   SelectContent,
@@ -12,11 +13,13 @@ import {
 interface SelectOptionsProps {
   title: string;
   options: { title: string }[];
+  value: string;  
+  onCategorySelect: (category: string) => void;
 }
 
-export default function SelectOptions({ title, options }: SelectOptionsProps) {
+export default function SelectOptions({ title, options, value, onCategorySelect }: SelectOptionsProps) {
   return (
-    <Select>
+    <Select value={value} onValueChange={onCategorySelect}>
       <SelectTrigger className="w-[180px] my-5">
         <SelectValue placeholder={`Select ${title}`} />
       </SelectTrigger>
@@ -24,7 +27,7 @@ export default function SelectOptions({ title, options }: SelectOptionsProps) {
         <SelectGroup>
           <SelectLabel>{title}</SelectLabel>
           {options.map((option) => (
-            <SelectItem key={option.title} value={option.title.toLowerCase()}>
+            <SelectItem key={option.title.toLowerCase()} value={option.title.toLowerCase()}>
               {option.title}
             </SelectItem>
           ))}

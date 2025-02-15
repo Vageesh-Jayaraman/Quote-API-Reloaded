@@ -1,14 +1,16 @@
-import CodeBlock from "@/components/helpers/CodeBlock";
-import Header from "@/components/helpers/Header";
-import FloatingNavDemo from "@/components/helpers/NavBar";
+import MainHeader from "@/components/helpers/MainHeader";
+import NavigationBar from "@/components/helpers/NavBar";
+import QuoteOfTheDay from "@/components/helpers/QOA";
+import Features from "@/components/helpers/Features";
 
 export default function Home(){
   return (
     <div>
       
-      <FloatingNavDemo></FloatingNavDemo>
-      <Header title="Quote API"></Header>
-      <CodeBlock code={""} params={""} link={"www.google.com"}></CodeBlock>
+      <NavigationBar></NavigationBar>
+      <MainHeader></MainHeader>
+      <QuoteOfTheDay></QuoteOfTheDay>
+      <Features></Features>
 
     </div>
     
