@@ -1,6 +1,6 @@
 export const snippets = [
     [
-        "/quotes/random", 
+        "/api/random", 
         `None`,
         `
         {
@@ -16,7 +16,7 @@ export const snippets = [
     ],
 
     [
-        "/quotes/id", 
+        "/api/{id}", 
         `TYPE: Integer`,
         `
         {
@@ -32,7 +32,7 @@ export const snippets = [
     ],
 
     [
-        "/quotes/category/{category}", 
+        "/api/category/{category}", 
         `TYPE: String,
 enum: ["motivation", "affirmation", "fitness", "relationship", "positivity"]`,
         `
@@ -60,7 +60,7 @@ enum: ["motivation", "affirmation", "fitness", "relationship", "positivity"]`,
     ],
 
     [
-        "/quotes/author/{author}", 
+        "/api/author/{author}", 
         `TYPE: String`,
         `
         [
@@ -87,7 +87,7 @@ enum: ["motivation", "affirmation", "fitness", "relationship", "positivity"]`,
     ],
 
     [
-        "/quotes/popularity/{popularity}", 
+        "/api/popularity/{popularity}", 
         `TYPE: Float,
 enum: ["<", "between", ">"]`,
         `
@@ -115,7 +115,7 @@ enum: ["<", "between", ">"]`,
     ],
 
     [
-        "/quotes/language/{language}", 
+        "/api/language/{language}", 
         `TYPE: String,
 enum: ["english", "sanskrit"]`,
         `
@@ -143,7 +143,7 @@ enum: ["english", "sanskrit"]`,
     ],
 
     [
-        "/quotes/date/{date}", 
+        "/api/date/{date}", 
         `TYPE: Date,
 enum: ["<", "between", ">"]`,
         `
