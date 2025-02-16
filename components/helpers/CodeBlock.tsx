@@ -31,7 +31,8 @@ export default function CodeBlock({ link, params, query, code }: { link: string,
                 <div className="flex items-center font-bold w-full px-5 py-1 rounded-md bg-gray-800 " style={{
                     border: `2px solid ${colors.seaGreen}`
                 }}>
-                    <p className="flex-1 overflow-hidden overflow-ellipsis whitespace-nowrap">{fullLink}</p>
+                    <p className="flex-1">{fullLink}</p>
+
                     <button onClick={handleCopy} className="ml-3 p-1 rounded-md hover:opacity-80 transition">
                         {copied ? <Check size={16} color="white" /> : <ClipboardCopy size={16} color="white" />}
                     </button>
