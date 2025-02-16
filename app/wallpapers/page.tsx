@@ -24,7 +24,7 @@ const gradientSize = {
 export default function Home() {
     const [color1, setColor1] = useState("#ff5733");
     const [color2, setColor2] = useState("#33c9ff");
-    const [text, setText] = useState("");
+    const [text, setText] = useState("Double click to download");
     const [selectedDevice, setSelectedDevice] = useState<keyof typeof gradientSize>("Desktop"); 
     const gradientRef = useRef(null);
 
