@@ -54,7 +54,7 @@ export default function Features() {
     },
   ];
   return (
-    <div className="flex justify-center items-center min-h-screen">
+    <div className="flex justify-center items-center mt-20 mb-20">
       <div className="">
         <div className="text-center text-4xl font-semibold text-neutral-200 cursor-pointer relative group">
           <span className="relative">
