@@ -58,8 +58,8 @@ export default function Features() {
       <div className="">
         <div className="text-center text-4xl font-semibold text-neutral-200 cursor-pointer relative group">
           <span className="relative">
-            Why You’ll Love It
-            <span className="absolute left-0 bottom-0 h-[3px] w-0 bg-[#2E8B57] transition-all duration-300 ease-in-out group-hover:w-full"></span>
+            Why You'll Love It
+          <span className="absolute left-0 bottom-0 h-[3px] w-0 bg-[#2E8B57] transition-all duration-300 ease-in-out group-hover:w-full"></span>
           </span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 relative z-10 py-5 max-w-7xl mx-20">
