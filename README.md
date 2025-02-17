@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+## Quote API Reloaded
 
-## Getting Started
+> A faster, smarter and cooler version of the original <a href="https://github.com/Vageesh-Jayaraman/Quote-API">Quote API</a>. Now with Next.js, AI-powered quotes and an API Playground! 🎉
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Built With
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=nextjs,typescript,mongodb,redis,nodejs,vercel,tailwind" height="50" />
+  <img src="https://github.com/user-attachments/assets/56cd2d59-72e0-4c83-9c74-f4d03f2cde89" height="50" style="border-radius: 12px;" />
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## What’s New?
 
-## Learn More
+| Feature | Old Version | Reloaded Version |
+|---------|------------|------------------|
+| **Tech** | Node.js + Express | Next.js + API Routes |
+| **Database** | MongoDB | MongoDB + Redis Caching |
+| **Languages** | English Only | English & Sanskrit 🇮🇳 |
+| **Quote Wallpapers** | ❌ No | ✅ Yes |
+| **Performance** | Slower | 🚀 Blazing Fast |
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Future Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Quote of the Day (AI-Generated)** ✨ Coming soon!
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
