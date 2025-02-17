@@ -1,6 +1,6 @@
 ## Quote API Reloaded
 
-> A faster, smarter and cooler version of the original <a href="YOUR_GITHUB_LINK_HERE">Quote Generation API</a>. Now with Next.js, AI-powered quotes and an API Playground! 🎉
+> A faster, smarter and cooler version of the original <a href="https://github.com/Vageesh-Jayaraman/Quote-API">Quote API</a>. Now with Next.js, AI-powered quotes and an API Playground! 🎉
 
 ---
 
