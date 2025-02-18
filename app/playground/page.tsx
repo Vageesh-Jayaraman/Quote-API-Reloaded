@@ -21,6 +21,7 @@ function InputBox({ value, onChange }: { value: string; onChange: (e: React.Chan
 }
 
 const apiEndpoints = [
+    "/api/quotes",
     "/api/random",
     "/api/{id}",
     "/api/author/{author}",
@@ -63,6 +64,7 @@ export default function Home() {
     }
 
     const options = [
+        { title: "All Quotes"},
         { title: "Random" },
         { title: "ID" },
         { title: "Author" },

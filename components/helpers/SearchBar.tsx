@@ -17,16 +17,23 @@ import {
   PopoverContent,
   PopoverTrigger,
 } from "@/components/ui/popover";
-import data from "@/data.json";
 
-const authors = Array.from(new Set(data.map((quote) => quote.author)));
+interface Quote {
+  author: string;
+}
 
 interface ComboBoxProps {
-  value: string;  
+  value: string;
   onAuthorSelect: (author: string) => void;
 }
 
-export default function ComboBox({ value, onAuthorSelect }: ComboBoxProps) {
+interface ComboBoxProps {
+  value: string;
+  onAuthorSelect: (author: string) => void;
+  authors: string[]; 
+}
+
+export default function ComboBox({ value, onAuthorSelect, authors }: ComboBoxProps) {
   const [open, setOpen] = React.useState(false);
 
   const handleSelect = (selectedValue: string) => {
@@ -44,6 +51,7 @@ export default function ComboBox({ value, onAuthorSelect }: ComboBoxProps) {
             role="combobox"
             aria-expanded={open}
             className="w-[200px] justify-between"
+            disabled={authors.length === 0}
           >
             {value || "Select author..."}
             <ChevronsUpDown className="ml-2 h-4 w-4 shrink-0 opacity-50" />
@@ -59,7 +67,7 @@ export default function ComboBox({ value, onAuthorSelect }: ComboBoxProps) {
                   <CommandItem
                     key={author.toLowerCase()}
                     value={author}
-                    onSelect={() => handleSelect(author)} 
+                    onSelect={() => handleSelect(author)}
                   >
                     <Check
                       className={cn(

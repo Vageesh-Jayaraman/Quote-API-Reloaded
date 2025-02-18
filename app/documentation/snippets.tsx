@@ -1,5 +1,41 @@
 export const snippets = [
     [
+        "/api/quotes",
+        "None",
+        "/api/quotes",
+        `
+        [
+            {
+                "id": "1",
+                "quote": "Happiness depends upon ourselves.",
+                "author": "Aristotle",
+                "category": "positivity",
+                "language": "english",
+                "date_added": "2023-11-20",
+                "popularity": 9.2
+            },
+            {
+                "id": "2",
+                "quote": "Act as if what you do makes a difference. It does.",
+                "author": "William James",
+                "category": "motivation",
+                "language": "english",
+                "date_added": "2024-02-01",
+                "popularity": 8.7
+            },
+            {
+                "id": "3",
+                "quote": "The only way to do great work is to love what you do.",
+                "author": "Steve Jobs",
+                "category": "motivation",
+                "language": "english",
+                "date_added": "2023-10-05",
+                "popularity": 9.5
+            }
+        ]
+        `
+    ],
+    [
         "/api/random",
         "None",
         "/api/random",
