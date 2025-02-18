@@ -7,7 +7,7 @@
 ## Built With
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,typescript,mongodb,redis,nodejs,vercel,tailwind" height="50" />
+  <img src="https://skillicons.dev/icons?i=nextjs,typescript,mongodb,redis,vercel,tailwind" height="50" />
   <img src="https://github.com/user-attachments/assets/56cd2d59-72e0-4c83-9c74-f4d03f2cde89" height="50" style="border-radius: 12px;" />
 </div>
 
