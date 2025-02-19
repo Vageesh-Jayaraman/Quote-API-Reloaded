@@ -16,8 +16,8 @@
 ## What’s New?
 
 | Feature | Old Version | Reloaded Version |
-|---------|------------|------------------|
-| **Tech** | Node.js + Express | Next.js + API Routes |
+|---------|-------------|------------------|
+| **Tech** | HTML, CSS, JS, Node.js + Express | Next.js + API Routes |
 | **Database** | MongoDB | MongoDB + Redis Caching |
 | **Languages** | English Only | English & Sanskrit 🇮🇳 |
 | **Quote Wallpapers** | ❌ No | ✅ Yes |
