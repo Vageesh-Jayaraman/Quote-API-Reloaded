@@ -7,7 +7,7 @@
 ## Built With
 
 <div align="center">
-  <img src="https://skillicons.dev/icons?i=nextjs,typescript,mongodb,redis,vercel,tailwind" height="50" />
+  <img src="https://skillicons.dev/icons?i=nextjs,typescript,mongodb,vercel,tailwind" height="50" />
   <img src="https://github.com/user-attachments/assets/56cd2d59-72e0-4c83-9c74-f4d03f2cde89" height="50" style="border-radius: 12px;" />
 </div>
 
@@ -18,7 +18,7 @@
 | Feature | Old Version | Reloaded Version |
 |---------|-------------|------------------|
 | **Tech** | HTML, CSS, JS, Node.js + Express | Next.js + API Routes |
-| **Database** | MongoDB | MongoDB + Redis Caching |
+| **Database** | MongoDB | MongoDB + Next.js Caching |
 | **Languages** | English Only | English & Sanskrit 🇮🇳 |
 | **Quote Wallpapers** | ❌ No | ✅ Yes |
 | **Performance** | Slower | 🚀 Blazing Fast |
