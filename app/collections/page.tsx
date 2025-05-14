@@ -51,7 +51,6 @@ export default function Home() {
     fetchQuotes();
   }, []);
 
-  // Extract unique authors from quotes
   const uniqueAuthors = Array.from(new Set(quotes.map((quote) => quote.author)));
 
   let filteredQuotes = selectedAuthor
@@ -82,7 +81,7 @@ export default function Home() {
         <ComboBox 
           value={selectedAuthor} 
           onAuthorSelect={setSelectedAuthor}
-          authors={uniqueAuthors} // Pass authors list here
+          authors={uniqueAuthors} 
         />
       </div>
 

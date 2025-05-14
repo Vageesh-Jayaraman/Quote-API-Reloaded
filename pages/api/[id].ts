@@ -1,6 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next";
 import connectToDatabase from "@/lib/mongodb";
-import client from "@/lib/redis";
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
   const { id } = req.query;
@@ -10,13 +9,6 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
   }
 
   try {
-    const cacheKey = `quote:${id}`;
-    
-    const cachedData = await client.get(cacheKey);
-    if (cachedData) {
-      return res.status(200).json(JSON.parse(cachedData));
-    }
-
     const db = await connectToDatabase();
     if (!db) {
       throw new Error("Database connection failed");
@@ -27,14 +19,11 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
       { projection: { _id: 0 } }
     );
 
-
     if (!quote) {
       return res.status(404).json({ error: "Quote not found" });
     }
 
-    await client.set(cacheKey, JSON.stringify(quote), {
-      EX: 3600 
-    });
+    res.setHeader("Cache-Control", "s-maxage=3600, stale-while-revalidate");
 
     return res.status(200).json(quote);
   } catch (error) {
