@@ -1,9 +1,0 @@
-{
-    "cron": [
-      {
-        "path": "/api/generate-quote",
-        "schedule": "0 0 * * *"
-      }
-    ]
-  }
-  
