@@ -1,12 +1,30 @@
+"use client";
+import { useEffect, useState } from "react";
 import { Roboto } from "next/font/google";
 
 const roboto = Roboto({
   weight: ["500"],
   subsets: ["cyrillic"],
-
 });
 
 export default function QuoteOfTheDay() {
+  const [quote, setQuote] = useState("Loading...");
+
+  useEffect(() => {
+    const fetchQuote = async () => {
+      try {
+        const response = await fetch("/api/generate-quote");
+        const data = await response.json();
+        setQuote(data.quote);
+      } catch (error) {
+        console.error("Error fetching quote:", error);
+        setQuote("Failed to load quote.");
+      }
+    };
+
+    fetchQuote();
+  }, []);
+
   return (
     <div className="mx-20 mt-10">
       <div className="text-center text-4xl font-semibold text-neutral-200 cursor-pointer relative group">
@@ -23,12 +41,10 @@ export default function QuoteOfTheDay() {
             "linear-gradient(319deg, #50C878 0%, #fbaed2 37%, #f0dc82 100%)",
         }}
       >
-        <p className="absolute top-2 left-2 text-base font-mono font-bold bg-black px-2 py-1 rounded-md text-green-500">
-          Still under dev!
-        </p>
+        
 
         <p className={`text-center text-4xl text-black ${roboto.className} p-10 font-bold`}>
-          It always seems impossible until it’s done.
+          {quote}
         </p>
       </div>
     </div>
